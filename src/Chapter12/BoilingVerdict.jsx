@@ -7,7 +7,7 @@ function BoilingVerdict(props) {
   } else if (props.celsius < 100) {
     return <p>물이 끓지 않습니다.</p>;
   }
-  return <p>값이 없습니다.</p>;
+  return <p>온도가 입력되지 않았습니다.</p>;
 }
 
 export default BoilingVerdict;
