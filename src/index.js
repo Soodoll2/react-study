@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import ThisWeek from './Chapter12/Calculator';
+import ThisWeek from './chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
