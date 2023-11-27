@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 //import ThisWeek from './chapter_12/Calculator';
-import ThisWeek from './chapter_13/ProfileCard';
+//import ThisWeek from './chapter_13/ProfileCard';
+import ThisWeek from './chapter_14/themeContest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
