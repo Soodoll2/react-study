@@ -9,6 +9,7 @@ function App(props) {
     // 컨텍스트를 사용하려면 상위 컴포넌트를 Provider로 감싸줘야 함. 이러면 하위 컴포넌트드은 컴포넌트 트리 하단에 얼마나 깊이 있는지에 관계없이 데이터를 읽을 수 있음
     // Provider 를 사용하여 하위 컴포넌트에 현재 테마의 데이터 값을 전달
     // 현재 테마이 데이터 값을 dark로 전달
+    //
     <ThemeContext.Provider value="dark">
       <Toolbar />
     </ThemeContext.Provider>
